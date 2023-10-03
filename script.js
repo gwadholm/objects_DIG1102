@@ -26,7 +26,7 @@ const template = favMovies.map(movie => `
     <p>Name: ${movie.name}</p>
     <p>Year: ${movie.year}</p>
     <p>Name: ${movie.director}</p>
-    <img style="width: 500px" src="${movie.poster}" />
+    <img src="${movie.poster}" />
   </li>
 `);
 
